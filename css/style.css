@@ -1,0 +1,38 @@
+/* Styling for all the elements in html*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Dancing+Script:wght@700&family=Open+Sans:wght@300&family=Poppins&display=swap');
+body{   
+    background-size: cover;
+    background: gray;
+}
+h1,h2,p{
+    font-family: 'Dancing Script', sans-serif;
+
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+button{
+    font-family: 'Dancing Script', sans-serif;
+    width: 130px;
+    height: 70px;
+    background: black;
+    border: 2px solid #fff;
+    outline:none;
+    border-radius: 30px;
+    cursor:pointer;
+    font-size:1.1em;
+    color:#fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+button:hover{
+    background: #fff;
+    color:black;
+}
+div{
+    display: flex;
+}
